@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5
+}
+
+.containerMain{
+  width: 30vw;
+  height: auto;
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.containerMain h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.containerMain input{
+  padding: 10px;
+  border-radius: 5px;
+  outline: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid rgb(54, 99, 232);
+  /* background-color: #f7f7f7; */
+}
+
+.containerMain button{
+  padding: 10px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  background-color: rgb(54, 99, 232);
+  color: #fff;
+  cursor: pointer;
+}
+
+.containerMain button:hover{
+  background-color: rgb(48, 86, 218);
+}
+
+.containerMain .barCodeImg{
+  width: 90%;
+  margin: 0px auto;
+  height: 20%;
+  padding: 5px;
+}
